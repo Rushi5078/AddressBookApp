@@ -1,0 +1,63 @@
+* /* UC 1 */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.header {
+  padding: 10px 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  position: absolute;
+  left: 1px;
+  top:2%;
+}
+
+.addressBook-text {
+  text-align: left;
+  font: normal normal bold 22px/25px Montserrat;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  opacity: 1;
+  color: #008cff;
+  margin-left: 10px;
+}
+
+.addressBook-text1 {
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #008cff;
+    position: absolute;
+    left: 5%;
+    top:2px;
+
+  }
+.addressBook-book {
+  color: #42515f;
+}
+h1{
+    color: aqua;
+    text-decoration: underline;
+    position: absolute;
+    left: 35%;
+    top:2px;
+}
