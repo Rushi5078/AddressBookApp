@@ -9,7 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap"
     rel="stylesheet" />
-  <link rel="shortcut icon" href="../assests/images/logo.jpeg">
+  <link rel="shortcut icon" href="../assets/images/logo.jpeg">
   <link rel="stylesheet" href="addressbook.css">
   <title>Address Book Form</title>
 </head>
@@ -17,15 +17,25 @@
 <body>
   <!-- UC 1 -->
   <header class="header-content header">
-    
     <div class="logo-content">
-        <img src="addressbook img.webp" height="50px" width="50px" alt="logo" />
-        <h2 class="addressBook-text"> Address</h2>  
-        <h2 class="addressBook-text1"> <br> Book<h2>
-        </div>
-      
+      <img src="addressbook img.webp" height="50px" width="50px" alt="logo" />
       <div>
-        <h1>Add Person Address Book UI/Ux</h1>
-       </div>
-    
+        <span class="addressBook-text">Address</span><br />
+        <span class="addressBook-text addressBook-book">Book</span>
+      </div>
+    </div>
   </header>
+
+  <!-- UC 2 -->
+  <div class="form-content">
+    <form action="#" class="form" onreset="resetForm()" onsubmit="save()">
+      <div class="form-head">
+        <div class="form-head-text">Person Address Form</div>
+        <a href="../pages/address_book_form.html"><img class="form-head-image" src="../assets/images/cancelButton.jpeg"
+            alt="logo"></a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
